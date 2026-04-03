@@ -1,4 +1,4 @@
-# yt-audio: Terminal YouTube Audio Player
+# geor: Terminal YouTube Audio Player
 
 A terminal-based YouTube audio player written in Go. Features pitch-preserving speed control, a modern TUI, and robust streaming using yt-dlp and ffmpeg.
 ## Story
