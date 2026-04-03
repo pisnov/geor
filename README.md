@@ -1,6 +1,9 @@
 # yt-audio: Terminal YouTube Audio Player
 
 A terminal-based YouTube audio player written in Go. Features pitch-preserving speed control, a modern TUI, and robust streaming using yt-dlp and ffmpeg.
+## Story
+
+I love listening to podcasts on YouTube, but noticed that keeping just one YouTube tab open can use more than 500MB of memory. To solve this, I decided to develop my own lightweight terminal audio player that streams directly from YouTube. After building it for my own use, I wanted to share it as an open source project so others can benefit too.
 
 ## Features
 - Play audio from YouTube URLs directly in your terminal
@@ -33,8 +36,15 @@ A terminal-based YouTube audio player written in Go. Features pitch-preserving s
 ## Architecture
 - Uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) to resolve direct audio stream URLs
 - Streams audio via ffmpeg with `atempo` filter for pitch-preserving speed
+
 - Decodes and plays audio using [beep](https://github.com/gopxl/beep)
 - TUI built with [Bubbletea](https://github.com/charmbracelet/bubbletea)
+
+## Screenshot
+
+Below is a screenshot of the yt-audio terminal player in action:
+
+![yt-audio screenshot](screenshoot/geor_ss01.png)
 
 ## Credits
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
